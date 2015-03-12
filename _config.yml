@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
+title: Polo's Dream
 locale: en_US
-description: Describe your website here.
+description: Here is Polo's blog.
 logo: site-logo.png
 search: true
 url: http://localhost:4000
@@ -32,7 +32,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Polo Lee
-  avatar: bio-photo.jpg
+  avatar: http://www.gravatar.com/avatar/08ca72044bdd6c1e87fac908df13b94e.png
   email: pololee1990@gmail.com
   disqus-shortname:
   twitter: pololee1990
@@ -40,7 +40,7 @@ owner:
   github: pololee
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
-  instagram: #username
+  instagram: ipololee
   flickr: #username
   tumblr: #username
   pinterest: #username
