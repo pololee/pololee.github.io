@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Polo's Dream
+title: "I'm Polo."
 locale: en_US
-description: Here is Polo's blog.
+description: "To share my thoughts, emotions and stories."
 logo: site-logo.png
 search: true
 url: http://localhost:4000
@@ -39,7 +39,7 @@ owner:
   facebook: xiao.li.1238292
   github: pololee
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: pololee
   instagram: ipololee
   flickr: #username
   tumblr: #username

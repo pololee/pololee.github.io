@@ -1,9 +1,9 @@
 // TYPOGRAPHY ================================================
-$base-font: 'source-sans-pro', sans-serif;
+$base-font: "Lora", "Microsoft Yahei", 'source-sans-pro', sans-serif;
 $heading-font: $base-font;
 $caption-font: $base-font;
 $code-font: 'source-code-pro', monospace;
-$alt-font: 'volkhov', serif;
+$alt-font: 'Galdeano', serif;
 
 $doc-font-size: 16;
 $doc-line-height: 24;
@@ -14,20 +14,23 @@ $border-radius: 3px;
 // set-up the body font-size / line-height
 body {
   margin-top: 0px + $doc-line-height;
-  font-size: 0px + $doc-font-size;  
+  font-size: 0px + $doc-font-size;
 }
 
 
 // COLORS =====================================================
-$body-color         : #fff;
+$body-color         : #f8f8f8;
 $text-color         : #222;
-$base-color         : #343434;    
-$comp-color         : spin($base-color, 180); 
+$base-color         : #343434;
+$comp-color         : spin($base-color, 180);
 $border-color       : #ddd;
 $white              : #fff;
 $black              : #000;
 $accent-color       : $black;
 $link-color         : #222;
+
+$navbar-color       : #313131;
+$navfont-color      : #fdbd66;
 
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;
@@ -36,6 +39,15 @@ $table-header-color           : lighten($table-background, 10);
 $table-hover-color            : darken($table-background, 2);
 $table-stripe-color           : darken($table-background, 4);
 $table-stripe-color-hover     : darken($table-stripe-color, 5);
+
+$feed-color         : #dc622c;
+$twitter-color      : #00b6f1;
+$facebook-color     : #3b5998;
+$google-color       : #c20806;
+$instagram-color    : #2c6a93;
+$github-color       : #040204;
+$dribble-color      : #333333;
+$linkedin-color     : #04669a;
 
 
 // MEDIA QUERIES ==============================================

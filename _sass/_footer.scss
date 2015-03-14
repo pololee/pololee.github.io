@@ -23,8 +23,40 @@
   margin: 1em 0 2em;
   a {
     padding: 4px 8px;
-    &:hover {
-      color: $black;
+    #icon-twitter {
+      &:hover {
+        color: $twitter-color;
+      }
+    }
+    #icon-facebook {
+      &:hover {
+        color: $facebook-color;
+      }
+    }
+    #icon-google {
+      &:hover {
+        color: $google-color;
+      }
+    }
+    #icon-linkedin {
+      &:hover {
+        color: $linkedin-color;
+      }
+    }
+    #icon-instagram {
+      &:hover {
+        color: $instagram-color;
+      }
+    }
+    #icon-github {
+      &:hover {
+        color: $github-color;
+      }
+    }
+    #icon-feed {
+      &:hover {
+        color: #dc622c;
+      }
     }
   }
 }
